@@ -6,7 +6,6 @@ exports.up = function(knex) {
       articles.integer("article_id").notNullable();
       articles.string("title").notNullable();
       articles.string("url").notNullable();
-      articles.timestamp("time").notNullable();
       articles.integer("rank").notNullable();
       articles.integer("descendants").notNullable();
       articles.integer("score").notNullable();

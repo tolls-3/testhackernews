@@ -12,7 +12,6 @@ exports.seed = function(knex) {
             "Wikipedia's Jimmy Wales has quietly launched a Facebook rival social network",
           url:
             "https://www.zdnet.com/article/wikipedias-jimmy-wales-has-quietly-launched-a-facebook-rival-social-network/",
-          time: 15738,
           rank: 1,
           descendants: 71,
           score: 97,
@@ -24,7 +23,6 @@ exports.seed = function(knex) {
           article_id: 21544864,
           title: "Pointless work meetings 'really a form of therapy'",
           url: "https://www.bbc.com/news/education-50418317",
-          time: 15738,
           rank: 2,
           descendants: 122,
           score: 255,
@@ -37,7 +35,6 @@ exports.seed = function(knex) {
           title:
             "How to motivate people? Talk about the context of the work to be done",
           url: "https://www.sametab.com/blog/employee-engagement",
-          time: 15738,
           rank: 3,
           descendants: 37,
           score: 135,
@@ -49,7 +46,6 @@ exports.seed = function(knex) {
           article_id: 21545145,
           title: "Sourcehut's Year in Alpha",
           url: "https://sourcehut.org/blog/2019-11-15-sourcehut-1-year-alpha/",
-          time: 15738,
           rank: 4,
           descendants: 42,
           score: 209,
@@ -63,7 +59,6 @@ exports.seed = function(knex) {
             "Amazon’s quest for more, cheaper products has resulted in a flea market of fakes",
           url:
             "https://www.washingtonpost.com/technology/2019/11/14/how-amazons-quest-more-cheaper-products-has-resulted-flea-market-fakes/",
-          time: 15737,
           rank: 5,
           descendants: 89,
           score: 154,
@@ -76,7 +71,6 @@ exports.seed = function(knex) {
           title:
             "Near-BERT accuracy on Sentiment Analysis with a model 56 times smaller",
           url: "https://blog.floydhub.com/knowledge-distillation/",
-          time: 15738,
           rank: 6,
           descendants: 0,
           score: 8,
@@ -90,7 +84,6 @@ exports.seed = function(knex) {
             "Yelp open-sources Clusterman, a cluster autoscaler for Kubernetes and Mesos",
           url:
             "https://engineeringblog.yelp.com/2019/11/open-source-clusterman.html",
-          time: 15738,
           rank: 7,
           descendants: 2,
           score: 21,
@@ -103,7 +96,6 @@ exports.seed = function(knex) {
           title:
             "Show HN: Scholarref tools – never deal with journal webpages again",
           url: "https://adamsgaard.dk/scholarref.html",
-          time: 15738,
           rank: 8,
           descendants: 3,
           score: 76,
@@ -117,7 +109,6 @@ exports.seed = function(knex) {
             "Which answer in this list is the correct answer to this question? (2017)",
           url:
             "https://math.stackexchange.com/questions/2217248/which-answer-in-this-list-is-the-correct-answer-to-this-question",
-          time: 15738,
           rank: 9,
           descendants: 92,
           score: 346,
@@ -130,7 +121,6 @@ exports.seed = function(knex) {
           title: "9 year old to graduate university",
           url:
             "https://www.cnn.com/2019/11/14/europe/university-graduate-child-genius-scli-intl/index.html",
-          time: 15738,
           rank: 10,
           descendants: 73,
           score: 87,
@@ -144,7 +134,6 @@ exports.seed = function(knex) {
             "How Google uses blacklists, algorithm tweaks and contractors for search results",
           url:
             "https://www.msn.com/en-us/money/companies/how-google-interferes-with-its-search-algorithms-and-changes-your-results/ar-BBWOCm2",
-          time: 15738,
           rank: 11,
           descendants: 98,
           score: 122,
@@ -158,7 +147,6 @@ exports.seed = function(knex) {
             "What is the “two-drive trick” that can read Amiga disks on a PC?",
           url:
             "https://retrocomputing.stackexchange.com/questions/12747/what-is-the-two-drive-trick-that-can-read-amiga-disks-on-a-pc",
-          time: 15738,
           rank: 12,
           descendants: 13,
           score: 73,
@@ -171,7 +159,7 @@ exports.seed = function(knex) {
           title:
             "LLVM-tutor: collection of out-of-tree LLVM examples for teaching and learning",
           url: "https://github.com/banach-space/llvm-tutor",
-          time: 15737,
+
           rank: 13,
           descendants: 1,
           score: 48,
@@ -184,7 +172,6 @@ exports.seed = function(knex) {
           title: "Show HN: Simple PDF to PNG Server",
           url:
             "https://secureview.cloudbrowser.xyz/secretpage-canneverbefound.html",
-          time: 15738,
           rank: 14,
           descendants: 36,
           score: 41,
@@ -197,7 +184,7 @@ exports.seed = function(knex) {
           title: "Eigenvectors from eigenvalues",
           url:
             "https://terrytao.wordpress.com/2019/08/13/eigenvectors-from-eigenvalues/",
-          time: 15737,
+
           rank: 15,
           descendants: 77,
           score: 449,
@@ -210,7 +197,7 @@ exports.seed = function(knex) {
           title: "Exploiting Intel’s Management Engine",
           url:
             "https://kakaroto.homelinux.net/2019/11/exploiting-intels-management-engine-part-1-understanding-pts-txe-poc/",
-          time: 15737,
+
           rank: 16,
           descendants: 32,
           score: 135,
@@ -223,7 +210,6 @@ exports.seed = function(knex) {
           title: "SimplyNUC Unveils Sequoia: AMD Ryzen V-Series-Based UCFF PC",
           url:
             "https://www.anandtech.com/show/15103/simplynuc-unveils-sequoia-amd-ryzen-vseriesbased-ucff-pc",
-          time: 15738,
           rank: 17,
           descendants: 2,
           score: 15,
@@ -236,7 +222,7 @@ exports.seed = function(knex) {
           title: "If you're busy, you're doing something wrong (2011)",
           url:
             "http://calnewport.com/blog/2011/11/11/if-youre-busy-youre-doing-something-wrong-the-surprisingly-relaxed-lives-of-elite-achievers/",
-          time: 15737,
+
           rank: 18,
           descendants: 136,
           score: 430,
@@ -248,7 +234,6 @@ exports.seed = function(knex) {
           article_id: 21546437,
           title: "Vanta (YC W18) Is Hiring Customer Success Managers in SF",
           url: "https://vanta.com/jobs",
-          time: 15738,
           rank: 19,
           descendants: 2,
           score: 1,
@@ -260,7 +245,7 @@ exports.seed = function(knex) {
           article_id: 21531507,
           title: "Flight 1080 (1978) [pdf]",
           url: "https://www.tristar500.net/library/flight1080.pdf",
-          time: 15736,
+
           rank: 20,
           descendants: 16,
           score: 34,
