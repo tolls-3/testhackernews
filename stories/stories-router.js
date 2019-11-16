@@ -2,8 +2,10 @@ const router = require("express").Router();
 const storiesModel = require("./stories-model");
 
 router.get("/", (req, res) => {
+    const { sortby, sortdir } = req.query;
   storiesModel
     .find()
+    .orderBy(sortby || "rank", sortdir || "asc")
     .then(topArticles => {
       res.status(200).json(topArticles);
       console.log("madeit");
